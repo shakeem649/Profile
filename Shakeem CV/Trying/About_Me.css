@@ -1,0 +1,160 @@
+/* Style for the entire section */
+section.About_Me {
+    background-color: #14aae611;  /* White background */
+    padding: 20px;              /* Padding around the section */
+    border-radius: 8px;         /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(3, 26, 129, 0.1); /* Subtle shadow for depth */
+    max-width: 800px;           /* Set a max width */
+    margin: 20px auto;          /* Center align on the page */
+  }
+  
+  /* Style for the div containing the title */
+  div#Title {
+    text-align: center;         /* Center-align the title */
+    margin-bottom: 15px;        /* Space below the title */
+  }
+  
+  /* Style for the heading inside the div */
+  div#About_Me h2 {
+    font-family: Arial, sans-serif;  /* Font style */
+    font-size: 24px;                 /* Font size */
+    color: #003366;                  /* Dark blue text color */
+    text-transform: uppercase;       /* Uppercase letters */
+    border-bottom: 2px solid #003366; /* Bottom border under the heading */
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  /* Style for the paragraph text */
+  section.About_Me p {
+    font-family: Georgia, serif;     /* Serif font for readability */
+    font-size: 16px;                 /* Font size */
+    line-height: 1.6;                /* Line spacing for readability */
+    color: #333333;                  /* Darker text color for contrast */
+    text-align: justify;             /* Justify text for a clean look */
+  }
+  
+ /* End of Abount_Me  */
+
+ /*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }*/
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .profile-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-photo {
+    width: 00px;
+    height: 350px;
+    border-radius: 90%;
+    object-fit: cover;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .contact-info {
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  
+  .contact-info li {
+    font-size: 0.9rem;
+  }
+  
+  .contact-info a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  .about,
+  .experience,
+  .education,
+  .skills {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  .job, .school {
+    margin-top: 15px;
+  }
+  
+  .job h3, .school h3 {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .company, .university, .dates {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .skills-list {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  .skills-list li {
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+
+
+  /* Style for the Profile Picture */
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
